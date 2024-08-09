@@ -1,0 +1,59 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+
+.jetbrains-mono-<uniquifier> {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body {
+  font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+  background-color: #282c34;
+  color: #abb2bf;
+  width: 75%;
+  margin: auto;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #4ec9b0;
+}
+
+ul,
+li {
+  margin: 0 0 0 20px;
+  padding: 0;
+  list-style-type: "- ";
+}
+
+#skills,
+#projects,
+#certifications,
+#contact {
+  margin-top: 40px;
+}
+
+#certifications ul {
+  margin-top: 0;
+}
+
+.comment {
+  font-style: italic;
+  padding-left: 20px;
+  color: #438a55;
+}
+
+.def {
+  color: #569cd6;
+}
+
+.function {
+  color: #d0dc8b;
+}
